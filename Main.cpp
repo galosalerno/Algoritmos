@@ -87,16 +87,3 @@ int main() {
     string nombreArchivo = "terminales.txt";
 	readFile(nombreArchivo);
 }
-
-// int main()
-// {
-    // string s = "Hello World!";
-//  
-    // vector<string> v(s.begin(), s.end());
-//  
-    // for (const string &c: v) {
-        // cout << c << endl;
-    // }
-//  
-    // return 0;
-// }
