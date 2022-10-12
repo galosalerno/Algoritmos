@@ -1,0 +1,2 @@
+COR Terminal_de_Cordoba Argentina 22 3 11 3
+IGZ Terminal_de_Iguazu Argentina 20 6 67 34
