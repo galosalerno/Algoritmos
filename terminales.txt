@@ -1,2 +1,4 @@
-RET Terminal_de_Retiro Argentina 35 4 12 46
-COR Terminal_de_Cordoba Argentina 14 9 87 69
+COR Terminal_de_Cordoba Argentina 22 3 11 3
+RET Terminal_de_Retiro Argentina 21 4 12 44
+
+IGZ Terminal_de_Iguazu Argentina 20 6 67 34

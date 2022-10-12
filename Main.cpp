@@ -1,12 +1,8 @@
+#include <iostream> 
+#include <fstream> 
+#include <string> 
 #include <sstream> 
-#include<conio.h>
-#include <iostream>
-#include <fstream>
-#include <locale.h> 
-#include <cstdlib>
-#include <vector>
-#include <string>
-#include <any>
+#include <conio.h>
 using namespace std;
 
 // struct terminal{
@@ -82,35 +78,50 @@ using namespace std;
     // cout << "Nombre " << ter.nombre <<endl;
 // }
 // 
+void altaEstacion(){
+    string nombreArchivo = "terminales.txt";
+    ofstream archivo;
+    string filename(nombreArchivo);
+    string terminal;
+    cout << "Ingrese una nueva terminal" << endl;
+    getline(cin, terminal);
+    // Abrimos el archivo
+    string text = "\n"+terminal;
+    archivo.open(filename, std::ios_base::app);
+    archivo.write(text.data(),text.size());
+    archivo.close();
+	cout << "Agregado correctamente";
+}
 int main () { 
-    string line; 
-    int count = 0; 
-    ifstream file("terminales.txt"); 
-
-    while (getline(file, line)) {
-        count++; 
-    }
-    
-    string arr[contador];
-
-    file.clear(); 
-    file.seekg(0, ios::beg); 
-
-    for (int i=0; i<count; i++) {
-
-        getline(file, arr[i]); 
-    }
-    file.close(); 
-
-    for (int i=0; i<count; i++) {
-
-        cout << arr[i]<<endl;
-    }
-
-    getch();
+    altaEstacion();
+    //string line; 
+    //int count = 0; 
+//
+    //ifstream file("terminales.txt"); 
+//
+    //while (getline(file, line)) {
+//
+    //    count++; 
+    //}
+    //string arr[count]; 
+//
+    //file.clear(); 
+    //file.seekg(0, ios::beg); 
+//
+    //for (int i=0; i<count; i++) {
+//
+    //    getline(file, arr[i]); 
+    //    }
+    //file.close(); 
+//
+    //for (int i=0; i<count; i++) {
+//
+    //    cout << arr[i]<<endl;
+    //}
+//
+    //getch();
     return 0;
 }
-
 
 
 
