@@ -1,3 +1,4 @@
-COR Terminal_de_Cordoba Argentina 22 3 11 3
-RET Terminal_de_Retiro Argentina 35 4 12 46
-IGZ Terminal_de_Iguazu Argentina 20 6 67 34
+COR Terminal_de_Cordoba Cordoba Argentina 22 3 11 3
+RET Terminal_de_Retiro Retiro Argentina 35 4 12 46
+IGZ Terminal_de_Iguazu Iguazu Argentina 20 6 67 34
+TUC Terminal_tucuman Tucuman Argentina 2000.000000 8 9 3
